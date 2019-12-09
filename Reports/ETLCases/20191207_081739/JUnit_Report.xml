@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ETLCases" time="131" tests="2" failures="1" errors="0">
+   <testsuite name="ETLCases" tests="2" failures="1" errors="0" time="131" timestamp="2019-12-07 08:17:42" hostname="chandu.t - wlpt518.imidomain.com" id="Test Suites/ETLCases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191207_081739"/>
+         <property name="logFiles" value="C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191207_081739\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191207_081739\\1575686902896.png, C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191207_081739\\1575686934536.png, C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191207_081739\\1575686954679.png, C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191207_081739\\1575686955035.png, C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191207_081739\\1575686992970.png"/>
+         <property name="hostName" value="chandu.t - wlpt518.imidomain.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.2.1"/>
+         <property name="browser" value="Chrome 78.0.3904.108"/>
+         <property name="hostAddress" value="172.16.41.37"/>
+         <property name="sessionId" value="d41180a01da5e52c0402dec9e2067dbb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BasicETL" classname="Test Cases/BasicETL" status="PASSED">
+         <system-out><![CDATA[2019-12-07 08:17:43 - [TEST_CASE][PASSED] - Test Cases/BasicETL: Test Cases/BasicETL
+
+2019-12-07 08:17:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-07 08:17:54 - [MESSAGE][PASSED] - Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-07 08:17:54 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-12-07 08:17:55 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-07 08:17:55 - [TEST_STEP][PASSED] - setText: Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-07 08:17:56 - [MESSAGE][PASSED] - Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-07 08:17:56 - [TEST_STEP][PASSED] - setText: Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-07 08:17:56 - [MESSAGE][PASSED] - Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-07 08:17:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-07 08:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-07 08:17:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-07 08:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-07 08:18:03 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-07 08:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-07 08:18:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-07 08:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-07 08:18:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-07 08:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-07 08:18:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-12-07 08:18:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-07 08:18:11 - [TEST_STEP][PASSED] - setText: Text 'ETL_Basic_201912070818' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-07 08:18:13 - [MESSAGE][PASSED] - Text 'ETL_Basic_201912070818' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-07 08:18:13 - [TEST_STEP][PASSED] - setText: Text 'Every 60 Minutes' is set on object 'Object Repository/Page_IMIcampaign/ETLSchedule'
+
+2019-12-07 08:18:14 - [MESSAGE][PASSED] - Text 'Every 60 Minutes' is set on object 'Object Repository/Page_IMIcampaign/ETLSchedule'
+
+2019-12-07 08:18:14 - [TEST_STEP][PASSED] - setText: Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/BasicETL/201912070818/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-07 08:18:16 - [MESSAGE][PASSED] - Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/BasicETL/201912070818/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-07 08:18:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-07 08:18:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-07 08:18:16 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\chandu.t\Desktop\ETLFiles\BasicETL\basictg.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-07 08:18:17 - [MESSAGE][PASSED] - File 'C:\Users\chandu.t\Desktop\ETLFiles\BasicETL\basictg.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-07 08:18:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-07 08:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-07 08:18:17 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-12-07 08:18:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-07 08:18:22 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-12-07 08:18:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191207_081739\\1575686902896.png]]
+
+2019-12-07 08:18:23 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2019-12-07 08:18:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ETLDefinitionExists" classname="Test Cases/ETLDefinitionExists" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1480)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1575643645695.run(Script1575643645695.groovy:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1575686859194.run(TempTestSuite1575686859194.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2019-12-07 08:18:24 - [TEST_CASE][FAILED] - Test Cases/ETLDefinitionExists: Test Cases/ETLDefinitionExists FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1480)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1575643645695.run(Script1575643645695.groovy:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1575686859194.run(TempTestSuite1575686859194.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2019-12-07 08:18:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-07 08:18:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-07 08:18:30 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-12-07 08:18:31 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-07 08:18:31 - [TEST_STEP][PASSED] - setText: Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-07 08:18:31 - [MESSAGE][PASSED] - Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-07 08:18:31 - [TEST_STEP][PASSED] - setText: Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-07 08:18:32 - [MESSAGE][PASSED] - Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-07 08:18:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-07 08:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-07 08:18:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-07 08:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-07 08:18:37 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-07 08:18:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-07 08:18:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-07 08:18:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-07 08:18:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-07 08:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-07 08:18:39 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-12-07 08:18:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-12-07 08:18:49 - [TEST_STEP][PASSED] - setText: Text 'ETL_Definition_Exists_2019120708' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-07 08:18:50 - [MESSAGE][PASSED] - Text 'ETL_Definition_Exists_2019120708' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-07 08:18:50 - [TEST_STEP][PASSED] - setText: Text 'Every 60 Minutes' is set on object 'Object Repository/Page_IMIcampaign/ETLSchedule'
+
+2019-12-07 08:18:51 - [MESSAGE][PASSED] - Text 'Every 60 Minutes' is set on object 'Object Repository/Page_IMIcampaign/ETLSchedule'
+
+2019-12-07 08:18:51 - [TEST_STEP][PASSED] - setText: Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/ETL_Definition_Exists/2019120708/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-07 08:18:53 - [MESSAGE][PASSED] - Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/ETL_Definition_Exists/2019120708/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-07 08:18:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-07 08:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-07 08:18:53 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\chandu.t\Desktop\ETLFiles\ETLDefinitionExists\ETLDefExist.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-07 08:18:54 - [MESSAGE][PASSED] - File 'C:\Users\chandu.t\Desktop\ETLFiles\ETLDefinitionExists\ETLDefExist.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-07 08:18:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-07 08:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-07 08:18:54 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-12-07 08:18:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191207_081739\\1575686934536.png]]
+
+2019-12-07 08:18:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-12-07 08:19:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-07 08:19:00 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-07 08:19:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-07 08:19:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-07 08:19:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-07 08:19:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-12-07 08:19:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-07 08:19:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-07 08:19:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-07 08:19:04 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-12-07 08:19:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-07 08:19:09 - [TEST_STEP][PASSED] - setText: Text 'ETL_Definition_Exists_2019120708' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-07 08:19:10 - [MESSAGE][PASSED] - Text 'ETL_Definition_Exists_2019120708' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-07 08:19:10 - [TEST_STEP][PASSED] - setText: Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/ETL_Definition_Exists/2019120708/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-07 08:19:12 - [MESSAGE][PASSED] - Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/ETL_Definition_Exists/2019120708/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-07 08:19:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-07 08:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-07 08:19:12 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\chandu.t\Desktop\ETLFiles\ETLDefinitionExists\ETLDefExist.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-07 08:19:13 - [MESSAGE][PASSED] - File 'C:\Users\chandu.t\Desktop\ETLFiles\ETLDefinitionExists\ETLDefExist.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-07 08:19:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-07 08:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-07 08:19:14 - [TEST_STEP][NOT_RUN] - takeScreenshot: NOT_RUN: takeScreenshot
+
+2019-12-07 08:19:14 - [MESSAGE][NOT_RUN] - NOT_RUN: takeScreenshot
+
+2019-12-07 08:19:14 - [TEST_STEP][FAILED] - acceptAlert: Unable to accept alert (Root cause: No alert found)
+
+2019-12-07 08:19:15 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191207_081739\\1575686954679.png]]
+
+2019-12-07 08:19:15 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: No alert found)
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191207_081739\\1575686955035.png]]]]></system-out>
+         <system-err><![CDATA[2019-12-07 08:18:24 - [TEST_CASE][FAILED] - Test Cases/ETLDefinitionExists: Test Cases/ETLDefinitionExists FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1480)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1575643645695.run(Script1575643645695.groovy:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1575686859194.run(TempTestSuite1575686859194.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ETLFlushLoad" classname="Test Cases/ETLFlushLoad" status="PASSED">
+         <system-out><![CDATA[2019-12-07 08:19:15 - [TEST_CASE][PASSED] - Test Cases/ETLFlushLoad: Test Cases/ETLFlushLoad
+
+2019-12-07 08:19:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-07 08:19:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-07 08:19:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-07 08:19:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-12-07 08:19:23 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-07 08:19:23 - [TEST_STEP][PASSED] - setText: Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-07 08:19:23 - [MESSAGE][PASSED] - Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-07 08:19:23 - [TEST_STEP][PASSED] - setText: Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-07 08:19:24 - [MESSAGE][PASSED] - Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-07 08:19:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-07 08:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-07 08:19:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-07 08:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-07 08:19:29 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-07 08:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-07 08:19:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-07 08:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-07 08:19:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-07 08:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-07 08:19:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-12-07 08:19:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-07 08:19:36 - [TEST_STEP][PASSED] - setText: Text 'ETL_Flush_Load_201912070819' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-07 08:19:37 - [MESSAGE][PASSED] - Text 'ETL_Flush_Load_201912070819' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-07 08:19:37 - [TEST_STEP][PASSED] - setText: Text 'Every 60 Minutes' is set on object 'Object Repository/Page_IMIcampaign/ETLSchedule'
+
+2019-12-07 08:19:38 - [MESSAGE][PASSED] - Text 'Every 60 Minutes' is set on object 'Object Repository/Page_IMIcampaign/ETLSchedule'
+
+2019-12-07 08:19:38 - [TEST_STEP][PASSED] - setText: Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/Flush_Load/201912070819/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-07 08:19:40 - [MESSAGE][PASSED] - Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/Flush_Load/201912070819/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-07 08:19:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-07 08:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-07 08:19:40 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\chandu.t\Desktop\ETLFiles\Flush_Load\FlushLoad1.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-07 08:19:41 - [MESSAGE][PASSED] - File 'C:\Users\chandu.t\Desktop\ETLFiles\Flush_Load\FlushLoad1.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-07 08:19:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-12-07 08:19:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-07 08:19:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/RecommendedSettingsAccordion' is clicked on
+
+2019-12-07 08:19:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/RecommendedSettingsAccordion' is clicked on
+
+2019-12-07 08:19:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/FlushBeforeLoadButton' is clicked on
+
+2019-12-07 08:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/FlushBeforeLoadButton' is clicked on
+
+2019-12-07 08:19:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-07 08:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-07 08:19:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-12-07 08:19:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-07 08:19:52 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-12-07 08:19:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191207_081739\\1575686992970.png]]
+
+2019-12-07 08:19:53 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2019-12-07 08:19:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-07 08:17:42 - [TEST_SUITE][FAILED] - ETLCases: Test Cases/ETLDefinitionExists FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1480)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1575643645695.run(Script1575643645695.groovy:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1575686859194.run(TempTestSuite1575686859194.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2019-12-07 08:17:42 - [TEST_SUITE][FAILED] - ETLCases: Test Cases/ETLDefinitionExists FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: No alert found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1480)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1575643645695.run(Script1575643645695.groovy:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1575686859194.run(TempTestSuite1575686859194.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

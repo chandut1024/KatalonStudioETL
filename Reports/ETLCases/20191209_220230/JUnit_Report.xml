@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ETLCases" time="284" tests="6" failures="0" errors="0">
+   <testsuite name="ETLCases" tests="6" failures="0" errors="0" time="284" timestamp="2019-12-09 22:02:33" hostname="chandu.t - wlpt518.imidomain.com" id="Test Suites/ETLCases">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191209_220230"/>
+         <property name="logFiles" value="C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191209_220230\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191209_220230\\1575909194382.png, C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191209_220230\\1575909243435.png, C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191209_220230\\1575909301046.png, C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191209_220230\\1575909335129.png, C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191209_220230\\1575909367379.png, C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191209_220230\\1575909425610.png, C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191209_220230\\1575909437463.png"/>
+         <property name="hostName" value="chandu.t - wlpt518.imidomain.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.2.1"/>
+         <property name="browser" value="Chrome 78.0.3904.108"/>
+         <property name="hostAddress" value="172.16.41.19"/>
+         <property name="sessionId" value="236f1903ff6be35be14b5df846da5bb1"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/BasicETL" classname="Test Cases/BasicETL" status="PASSED">
+         <system-out><![CDATA[2019-12-09 22:02:34 - [TEST_CASE][PASSED] - Test Cases/BasicETL: Test Cases/BasicETL
+
+2019-12-09 22:02:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-09 22:02:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-09 22:02:43 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-12-09 22:02:44 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-09 22:02:45 - [TEST_STEP][PASSED] - setText: Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-09 22:02:45 - [MESSAGE][PASSED] - Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-09 22:02:45 - [TEST_STEP][PASSED] - setText: Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-09 22:02:46 - [MESSAGE][PASSED] - Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-09 22:02:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-09 22:02:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-09 22:02:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-09 22:02:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-09 22:02:53 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-09 22:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-09 22:02:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-09 22:02:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-09 22:02:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-09 22:02:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-09 22:02:56 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-12-09 22:03:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-09 22:03:01 - [TEST_STEP][PASSED] - setText: Text 'ETL_Basic_201912092203' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-09 22:03:04 - [MESSAGE][PASSED] - Text 'ETL_Basic_201912092203' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-09 22:03:04 - [TEST_STEP][PASSED] - setText: Text 'Every 60 Minutes' is set on object 'Object Repository/Page_IMIcampaign/ETLSchedule'
+
+2019-12-09 22:03:05 - [MESSAGE][PASSED] - Text 'Every 60 Minutes' is set on object 'Object Repository/Page_IMIcampaign/ETLSchedule'
+
+2019-12-09 22:03:05 - [TEST_STEP][PASSED] - setText: Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/BasicETL/201912092203/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-09 22:03:07 - [MESSAGE][PASSED] - Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/BasicETL/201912092203/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-09 22:03:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-09 22:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-09 22:03:07 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\chandu.t\Desktop\ETLFiles\BasicETL\basictg.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-09 22:03:07 - [MESSAGE][PASSED] - File 'C:\Users\chandu.t\Desktop\ETLFiles\BasicETL\basictg.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-09 22:03:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-12-09 22:03:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-09 22:03:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-09 22:03:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-09 22:03:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-12-09 22:03:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-09 22:03:14 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-12-09 22:03:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191209_220230\\1575909194382.png]]
+
+2019-12-09 22:03:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2019-12-09 22:03:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ETLDefinitionExists" classname="Test Cases/ETLDefinitionExists" status="PASSED">
+         <system-out><![CDATA[2019-12-09 22:03:15 - [TEST_CASE][PASSED] - Test Cases/ETLDefinitionExists: Test Cases/ETLDefinitionExists
+
+2019-12-09 22:03:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-09 22:03:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-09 22:03:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-12-09 22:03:35 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-09 22:03:35 - [TEST_STEP][PASSED] - setText: Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-09 22:03:36 - [MESSAGE][PASSED] - Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-09 22:03:36 - [TEST_STEP][PASSED] - setText: Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-09 22:03:36 - [MESSAGE][PASSED] - Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-09 22:03:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-09 22:03:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-09 22:03:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-09 22:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-09 22:03:44 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-09 22:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-09 22:03:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-09 22:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-09 22:03:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-09 22:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-09 22:03:47 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-12-09 22:03:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-12-09 22:03:57 - [TEST_STEP][PASSED] - setText: Text 'ETL_Definition_Exists_2019120922' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-09 22:03:58 - [MESSAGE][PASSED] - Text 'ETL_Definition_Exists_2019120922' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-09 22:03:58 - [TEST_STEP][PASSED] - setText: Text 'Every 60 Minutes' is set on object 'Object Repository/Page_IMIcampaign/ETLSchedule'
+
+2019-12-09 22:03:58 - [MESSAGE][PASSED] - Text 'Every 60 Minutes' is set on object 'Object Repository/Page_IMIcampaign/ETLSchedule'
+
+2019-12-09 22:03:58 - [TEST_STEP][PASSED] - setText: Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/ETL_Definition_Exists/2019120922/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-09 22:04:00 - [MESSAGE][PASSED] - Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/ETL_Definition_Exists/2019120922/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-09 22:04:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-09 22:04:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-09 22:04:01 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\chandu.t\Desktop\ETLFiles\ETLDefinitionExists\ETLDefExist.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-09 22:04:01 - [MESSAGE][PASSED] - File 'C:\Users\chandu.t\Desktop\ETLFiles\ETLDefinitionExists\ETLDefExist.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-09 22:04:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-09 22:04:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-09 22:04:03 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2019-12-09 22:04:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-12-09 22:04:03 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-12-09 22:04:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191209_220230\\1575909243435.png]]
+
+2019-12-09 22:04:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-12-09 22:04:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-09 22:04:08 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-09 22:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-09 22:04:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-09 22:04:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-09 22:04:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-12-09 22:04:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-09 22:04:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-09 22:04:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-09 22:04:12 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-12-09 22:04:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-09 22:04:17 - [TEST_STEP][PASSED] - setText: Text 'ETL_Definition_Exists_2019120922' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-09 22:04:19 - [MESSAGE][PASSED] - Text 'ETL_Definition_Exists_2019120922' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-09 22:04:19 - [TEST_STEP][PASSED] - setText: Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/ETL_Definition_Exists/2019120922/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-09 22:04:21 - [MESSAGE][PASSED] - Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/ETL_Definition_Exists/2019120922/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-09 22:04:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-09 22:04:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-09 22:04:21 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\chandu.t\Desktop\ETLFiles\ETLDefinitionExists\ETLDefExist.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-09 22:04:21 - [MESSAGE][PASSED] - File 'C:\Users\chandu.t\Desktop\ETLFiles\ETLDefinitionExists\ETLDefExist.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-09 22:04:21 - [TEST_STEP][PASSED] - click: Switching to default content failed because an alert is presented on page. Please switch to default content after dealing with the alert.
+
+2019-12-09 22:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-09 22:04:22 - [MESSAGE][WARNING] - Switching to default content failed because an alert is presented on page. Please switch to default content after dealing with the alert.
+
+2019-12-09 22:04:22 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2019-12-09 22:04:22 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2019-12-09 22:04:22 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2019-12-09 22:04:22 - [MESSAGE][PASSED] - Alert accepted
+
+2019-12-09 22:04:22 - [TEST_STEP][PASSED] - switchToDefaultContent: Switching to default content
+
+2019-12-09 22:04:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/CancelETL' is clicked on
+
+2019-12-09 22:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/CancelETL' is clicked on
+
+2019-12-09 22:04:22 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2019-12-09 22:04:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ETLFlushLoad" classname="Test Cases/ETLFlushLoad" status="PASSED">
+         <system-out><![CDATA[2019-12-09 22:04:23 - [TEST_CASE][PASSED] - Test Cases/ETLFlushLoad: Test Cases/ETLFlushLoad
+
+2019-12-09 22:04:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-09 22:04:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-09 22:04:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-12-09 22:04:30 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-09 22:04:30 - [TEST_STEP][PASSED] - setText: Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-09 22:04:31 - [MESSAGE][PASSED] - Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-09 22:04:31 - [TEST_STEP][PASSED] - setText: Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-09 22:04:31 - [MESSAGE][PASSED] - Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-09 22:04:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-09 22:04:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-09 22:04:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-09 22:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-09 22:04:37 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-09 22:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-09 22:04:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-09 22:04:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-09 22:04:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-09 22:04:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-09 22:04:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-12-09 22:04:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-09 22:04:44 - [TEST_STEP][PASSED] - setText: Text 'ETL_Flush_Load_201912092204' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-09 22:04:45 - [MESSAGE][PASSED] - Text 'ETL_Flush_Load_201912092204' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-09 22:04:45 - [TEST_STEP][PASSED] - setText: Text 'Every 60 Minutes' is set on object 'Object Repository/Page_IMIcampaign/ETLSchedule'
+
+2019-12-09 22:04:46 - [MESSAGE][PASSED] - Text 'Every 60 Minutes' is set on object 'Object Repository/Page_IMIcampaign/ETLSchedule'
+
+2019-12-09 22:04:46 - [TEST_STEP][PASSED] - setText: Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/Flush_Load/201912092204/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-09 22:04:48 - [MESSAGE][PASSED] - Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/Flush_Load/201912092204/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-09 22:04:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-09 22:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-09 22:04:48 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\chandu.t\Desktop\ETLFiles\Flush_Load\FlushLoad1.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-09 22:04:49 - [MESSAGE][PASSED] - File 'C:\Users\chandu.t\Desktop\ETLFiles\Flush_Load\FlushLoad1.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-09 22:04:49 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-12-09 22:04:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-09 22:04:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/RecommendedSettingsAccordion' is clicked on
+
+2019-12-09 22:04:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/RecommendedSettingsAccordion' is clicked on
+
+2019-12-09 22:04:54 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_IMIcampaign/FlushBeforeLoadButton' is visible
+
+2019-12-09 22:04:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_IMIcampaign/FlushBeforeLoadButton' is visible
+
+2019-12-09 22:04:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/FlushBeforeLoadButton' is clicked on
+
+2019-12-09 22:04:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/FlushBeforeLoadButton' is clicked on
+
+2019-12-09 22:04:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-09 22:04:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-09 22:04:56 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-12-09 22:05:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-09 22:05:01 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-12-09 22:05:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191209_220230\\1575909301046.png]]
+
+2019-12-09 22:05:01 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2019-12-09 22:05:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ETLUpdate" classname="Test Cases/ETLUpdate" status="PASSED">
+         <system-out><![CDATA[2019-12-09 22:05:02 - [TEST_CASE][PASSED] - Test Cases/ETLUpdate: Test Cases/ETLUpdate
+
+2019-12-09 22:05:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-09 22:05:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-09 22:05:09 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-12-09 22:05:10 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-09 22:05:10 - [TEST_STEP][PASSED] - setText: Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-09 22:05:11 - [MESSAGE][PASSED] - Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-09 22:05:11 - [TEST_STEP][PASSED] - setText: Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-09 22:05:11 - [MESSAGE][PASSED] - Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-09 22:05:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-09 22:05:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-09 22:05:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-09 22:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-09 22:05:18 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-09 22:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-09 22:05:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-09 22:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-09 22:05:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-09 22:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-09 22:05:20 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-12-09 22:05:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-09 22:05:25 - [TEST_STEP][PASSED] - setText: Text 'ETL_Update_2019120922' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-09 22:05:26 - [MESSAGE][PASSED] - Text 'ETL_Update_2019120922' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-09 22:05:26 - [TEST_STEP][PASSED] - setText: Text 'Every 30 Minutes' is set on object 'Object Repository/Page_IMIcampaign/ETLSchedule'
+
+2019-12-09 22:05:26 - [MESSAGE][PASSED] - Text 'Every 30 Minutes' is set on object 'Object Repository/Page_IMIcampaign/ETLSchedule'
+
+2019-12-09 22:05:26 - [TEST_STEP][PASSED] - setText: Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/ETL_Update/2019120922/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-09 22:05:28 - [MESSAGE][PASSED] - Text '/apps/datafiles_1/PM/TESTDATA/ETLFiles/ETL_Update/2019120922/' is set on object 'Object Repository/Page_IMIcampaign/DataStoreLocation'
+
+2019-12-09 22:05:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-09 22:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/BrowseSampleFileAccordion' is clicked on
+
+2019-12-09 22:05:29 - [TEST_STEP][PASSED] - uploadFile: File 'C:\Users\chandu.t\Desktop\ETLFiles\ETLUpdate\update.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-09 22:05:29 - [MESSAGE][PASSED] - File 'C:\Users\chandu.t\Desktop\ETLFiles\ETLUpdate\update.txt' sent to object: 'Object Repository/Page_IMIcampaign/UploadComputerFile'
+
+2019-12-09 22:05:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-12-09 22:05:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-12-09 22:05:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-09 22:05:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-09 22:05:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-12-09 22:05:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-09 22:05:35 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-12-09 22:05:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191209_220230\\1575909335129.png]]
+
+2019-12-09 22:05:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2019-12-09 22:05:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/ETLUpdate1" classname="Test Cases/ETLUpdate1" status="PASSED">
+         <system-out><![CDATA[2019-12-09 22:05:36 - [TEST_CASE][PASSED] - Test Cases/ETLUpdate1: Test Cases/ETLUpdate1
+
+2019-12-09 22:05:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-09 22:05:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-09 22:05:42 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-12-09 22:05:43 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-09 22:05:43 - [TEST_STEP][PASSED] - setText: Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-09 22:05:44 - [MESSAGE][PASSED] - Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-09 22:05:44 - [TEST_STEP][PASSED] - setText: Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-09 22:05:45 - [MESSAGE][PASSED] - Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-09 22:05:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-09 22:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-09 22:05:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-09 22:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-09 22:05:50 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-09 22:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-09 22:05:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-09 22:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-09 22:05:52 - [TEST_STEP][PASSED] - setText: Text 'ETL_Update_2019120922' is set on object 'Object Repository/Page_IMIcampaign/SeachDataStoreTextbox'
+
+2019-12-09 22:05:52 - [MESSAGE][PASSED] - Text 'ETL_Update_2019120922' is set on object 'Object Repository/Page_IMIcampaign/SeachDataStoreTextbox'
+
+2019-12-09 22:05:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/SearchDataStoreButton' is clicked on
+
+2019-12-09 22:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/SearchDataStoreButton' is clicked on
+
+2019-12-09 22:05:52 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-12-09 22:05:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-09 22:05:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/ClickETLEdit' is clicked on
+
+2019-12-09 22:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/ClickETLEdit' is clicked on
+
+2019-12-09 22:05:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/AddNewColumnButton' is clicked on
+
+2019-12-09 22:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/AddNewColumnButton' is clicked on
+
+2019-12-09 22:06:02 - [TEST_STEP][PASSED] - setText: Text 'COST5' is set on object 'Object Repository/AddNewColumnPopup/Page_IMIcampaign/FileHeaderNameTextbox'
+
+2019-12-09 22:06:03 - [MESSAGE][PASSED] - Text 'COST5' is set on object 'Object Repository/AddNewColumnPopup/Page_IMIcampaign/FileHeaderNameTextbox'
+
+2019-12-09 22:06:03 - [TEST_STEP][PASSED] - setText: Text 'COST5' is set on object 'Object Repository/AddNewColumnPopup/Page_IMIcampaign/TableColumnNameTextbox'
+
+2019-12-09 22:06:03 - [MESSAGE][PASSED] - Text 'COST5' is set on object 'Object Repository/AddNewColumnPopup/Page_IMIcampaign/TableColumnNameTextbox'
+
+2019-12-09 22:06:03 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'Decimal' are selected in object 'Object Repository/AddNewColumnPopup/Page_IMIcampaign/SelectDataType' 
+
+2019-12-09 22:06:03 - [MESSAGE][PASSED] - All options with label 'Decimal' are selected in object 'Object Repository/AddNewColumnPopup/Page_IMIcampaign/SelectDataType' 
+
+2019-12-09 22:06:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AddNewColumnPopup/Page_IMIcampaign/AddNewColumnSaveProceedButton' is clicked on
+
+2019-12-09 22:06:04 - [MESSAGE][PASSED] - Object: 'Object Repository/AddNewColumnPopup/Page_IMIcampaign/AddNewColumnSaveProceedButton' is clicked on
+
+2019-12-09 22:06:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-12-09 22:06:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-09 22:06:07 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-12-09 22:06:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191209_220230\\1575909367379.png]]
+
+2019-12-09 22:06:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/UpdateETLButton' is clicked on
+
+2019-12-09 22:06:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/UpdateETLButton' is clicked on
+
+2019-12-09 22:06:08 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2019-12-09 22:06:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RemoteDataStore" classname="Test Cases/RemoteDataStore" status="PASSED">
+         <system-out><![CDATA[2019-12-09 22:06:09 - [TEST_CASE][PASSED] - Test Cases/RemoteDataStore: Test Cases/RemoteDataStore
+
+2019-12-09 22:06:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-09 22:06:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://touchstone1.imicampaign.io/BMSUI'
+
+2019-12-09 22:06:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-12-09 22:06:16 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-09 22:06:16 - [TEST_STEP][PASSED] - setText: Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-09 22:06:17 - [MESSAGE][PASSED] - Text 'chandu.t@imimobile.com' is set on object 'Object Repository/Page_IMIcampaign/Username'
+
+2019-12-09 22:06:17 - [TEST_STEP][PASSED] - setText: Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-09 22:06:17 - [MESSAGE][PASSED] - Text 'Qazwsxedc!123' is set on object 'Object Repository/Page_IMIcampaign/Password'
+
+2019-12-09 22:06:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-09 22:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/Signin' is clicked on
+
+2019-12-09 22:06:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-09 22:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataManagementButton' is clicked on
+
+2019-12-09 22:06:24 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-09 22:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/DataIngestionButton' is hovered
+
+2019-12-09 22:06:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-09 22:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/FeedETLButton' is clicked on
+
+2019-12-09 22:06:28 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-12-09 22:06:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-12-09 22:06:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-09 22:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/AddNewETLButton' is clicked on
+
+2019-12-09 22:06:38 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-12-09 22:06:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-12-09 22:06:48 - [TEST_STEP][PASSED] - setText: Text 'RemoteDataStore_201912092206' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-09 22:06:49 - [MESSAGE][PASSED] - Text 'RemoteDataStore_201912092206' is set on object 'Object Repository/Page_IMIcampaign/DataStoreName'
+
+2019-12-09 22:06:49 - [TEST_STEP][PASSED] - setText: Text 'Every 60 Minutes' is set on object 'Object Repository/Page_IMIcampaign/ETLSchedule'
+
+2019-12-09 22:06:50 - [MESSAGE][PASSED] - Text 'Every 60 Minutes' is set on object 'Object Repository/Page_IMIcampaign/ETLSchedule'
+
+2019-12-09 22:06:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/RemoteDatabaseImg' is clicked on
+
+2019-12-09 22:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/RemoteDatabaseImg' is clicked on
+
+2019-12-09 22:06:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/ImportDataOnOff' is clicked on
+
+2019-12-09 22:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/ImportDataOnOff' is clicked on
+
+2019-12-09 22:06:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/InputSource_RemoteStore_Accordian' is clicked on
+
+2019-12-09 22:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/InputSource_RemoteStore_Accordian' is clicked on
+
+2019-12-09 22:06:51 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'RTE_REDSHIFT' are selected in object 'Object Repository/Page_IMIcampaign/RDS_Select_Connection' 
+
+2019-12-09 22:06:51 - [MESSAGE][PASSED] - All options with label 'RTE_REDSHIFT' are selected in object 'Object Repository/Page_IMIcampaign/RDS_Select_Connection' 
+
+2019-12-09 22:06:51 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'pmgr_qa1' are selected in object 'Object Repository/Page_IMIcampaign/RDS_Select_Schema_RTE_REDSHIFT' 
+
+2019-12-09 22:06:52 - [MESSAGE][PASSED] - All options with label 'pmgr_qa1' are selected in object 'Object Repository/Page_IMIcampaign/RDS_Select_Schema_RTE_REDSHIFT' 
+
+2019-12-09 22:06:52 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'testtable' are selected in object 'Object Repository/Page_IMIcampaign/RDS_Select_Table_RTE_REDSHIFT_pmgr_qa1' 
+
+2019-12-09 22:06:53 - [MESSAGE][PASSED] - All options with value 'testtable' are selected in object 'Object Repository/Page_IMIcampaign/RDS_Select_Table_RTE_REDSHIFT_pmgr_qa1' 
+
+2019-12-09 22:06:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/SyncWithRemote' is clicked on
+
+2019-12-09 22:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/SyncWithRemote' is clicked on
+
+2019-12-09 22:06:55 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-12-09 22:07:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-12-09 22:07:05 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-12-09 22:07:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191209_220230\\1575909425610.png]]
+
+2019-12-09 22:07:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/RecommendedSettingsAccordion' is clicked on
+
+2019-12-09 22:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/RecommendedSettingsAccordion' is clicked on
+
+2019-12-09 22:07:06 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_IMIcampaign/FlushBeforeLoadButton' is visible
+
+2019-12-09 22:07:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_IMIcampaign/FlushBeforeLoadButton' is visible
+
+2019-12-09 22:07:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/FlushBeforeLoadButton' is clicked on
+
+2019-12-09 22:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/FlushBeforeLoadButton' is clicked on
+
+2019-12-09 22:07:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-09 22:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_IMIcampaign/SaveETL' is clicked on
+
+2019-12-09 22:07:07 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2019-12-09 22:07:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-12-09 22:07:17 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2019-12-09 22:07:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\QB_Automation\\Reports\\ETLCases\\20191209_220230\\1575909437463.png]]
+
+2019-12-09 22:07:17 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2019-12-09 22:07:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-09 22:02:33 - [TEST_SUITE][PASSED] - ETLCases: Test Cases/RemoteDataStore]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
